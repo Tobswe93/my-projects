@@ -1,0 +1,9 @@
+git pull - Hämta från server
+
+git status (kommer vara röd),
+ 
+git add (* eller filnamn), 
+
+git commit -m "valfritt meddelande",
+
+git push   
