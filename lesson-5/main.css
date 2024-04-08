@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background: #121212;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav > .logo > img {
+    width: 200px;
+}
+
+nav > .nav-items {
+    width: 82%;
+    text-align: right;
+}
+
+nav > .nav-items > a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+nav > .nav-items > a:hover {
+    color: #BB86FC;
+}
+
+header {
+    display: flex;
+    height: 35rem;
+    align-items: center;
+    background-color: #121212;
+    color: #fff;
+}
+
+header > .info {
+    padding: 5rem;
+}
+
+header > .info > h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+header > .info > .buttons > a:first-child {
+    margin-right: 10px;
+}
+
+.button {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.button:hover {
+    border-bottom: 5px solid #fff;
+}
+
+.button-primary {
+    background: #BB86FC;
+}
+
+.button-primary:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+.button-secondary {
+    background: #03DAC6;
+}
+
+header > .image > img {
+    width: 550px;
+    height: 35rem;
+    object-fit: cover;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+main .stats {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 17px;
+    
+}
+
+main .stats p {
+
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+#services {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#services .cards {
+    display: flex;
+    background-color: white;
+    margin: 25px;
+    padding: 15px;
+    justify-content: center;
+    
+}  
+
+#services .cards .card {
+    flex: 0 0 30%;
+}
+
+#services .card img {
+    width: 300px;
+    height: 200px;
+    
+}
+
+#services .cards .card .card-content {
+    color: black;
+}
+
+#cta {
+    background-color: #333;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+    width: 100%;
+}
+
+#cta .cta-button {
+    margin: 15px;    
+}
+
+#cta .cta-button a {
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#cta .cta-button a:hover {
+    background-color: #BB86FC;
+    transition: 0.5s;
+}
+
+#contact {
+    display: flex;
+    padding: 4rem;
+}
+
+#contact  .contact-image  img {
+    width: 650px;
+    margin-top: 40px;
+}
+
+#contact  .contact-form {
+    padding: 0px 3rem 0px 3rem;
+    flex: 0 0 50%;
+}
+
+#contact  .contact-form  form  p  input {
+    width: 100%;
+    background: #eee;
+    border: none;
+    color: black;
+    padding: 7.5px 5px 7.5px 5px;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+#contact  .contact-form  form  p  button {
+    width: 100%;
+    background: #121212;
+    border: none;
+    color: #fff;
+    padding: 7.5px 5px 7.5px 5px;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+#contact .contact-form form p button:hover {
+    background-color: #BB86FC;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem   ;
+}
+
+footer div {
+width: 100%;
+
+}
+
+footer .logo img {
+    width: 200%;
+}
+
+@media screen and (max-width: 600px) {
+    
+    #services > .cards {
+        flex-direction: column;
+    }
+
+    header > .image {
+        display: none;
+    }
+
+    main .stats {
+        flex-direction: column;
+    }
+
+    #cta {
+        flex-direction: column;
+    }
+    
+    #contact .contact-form {
+        flex-direction: column;
+    }
+    #contact .contact-image img {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    }

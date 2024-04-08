@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+}
+
+nav img {
+    margin-right: 10px; 
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+li {
+    margin-right: 15px; 
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    text-align: center;
+}
+
+a:hover {
+    background-color: lightgray;
+}
+
+header {
+    text-align: center;
+}
+
+.header-content {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.discover-button {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 1; /* Överlappar bilden */
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.discover-button:hover {
+    background-color: lightgrey;
+}
+
+.header-text {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    z-index: 1;
+    margin-top: 20px;
+    padding-top: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.main-text {
+    color: white;
+    font-weight: bolder;
+    font-size: 250%;
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-categories {
+    margin: 5px;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-categories p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-categories a {
+    text-decoration: none;
+    padding-top: 5px;
+    margin: 5px 0;
+    transition: background-color 0.3s, padding 0.3s;
+    border-radius: 5px;
+
+}
+
+.footer-categories a:hover {
+    color:  black;
+    background-color: #DDDDDD;
+    
+    }
+
+
+
